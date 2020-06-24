@@ -1,0 +1,66 @@
+body{
+	width: 1200px;
+	margin: auto;
+}
+
+header{
+	width: 1200px;
+	height: 140px;
+}
+.logo{
+	width: 100px;
+	float: left;
+}
+.logo img{
+	width: 110px;
+	margin: 20px 40px;
+}
+
+.menu{
+	width:1000px;
+	float: right;
+	background:green;
+	margin: 40px 0;
+	
+}
+
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+}
+
+.menu ul li{
+	display: block;
+}
+
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	padding: 10px 40px;
+	color: #000;
+	font-size: 18px;
+}
+
+h2{
+	text-align: center;
+}
+
+section{
+	border: 1px solid #000;
+	margin: 20px 0;
+	padding: 20px 30px;
+	width: 1198px;
+}
+
+section img{
+	width: 400px auto;
+	margin: auto;
+	display: block;
+}
+
+footer p{
+	text-align: center;
+	color: red;
+}
